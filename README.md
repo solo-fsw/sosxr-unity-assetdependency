@@ -24,3 +24,4 @@ Once the window is open:
 The What Uses This Window can be opened via the `SOSXR > Asset Dependency > What Uses This` file menu after you have selected an asset in the Project window. You can also check what the asset is using by going to `SOSXR > Asset Dependency > What Does This Use`
 
 You'll have to periodically update the dependency cache, you can do this by going to `SOSXR > Asset Dependency > Rebuild Dependency Cache`.
+
