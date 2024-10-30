@@ -1,12 +1,10 @@
 {
-  "name": "com.harryrose.assetdependencygraph",
-  "displayName": "Asset Dependency Graph",
+  "name": "com.sosxr.assetdependency",
+  "displayName": "Asset Dependency",
   "version": "1.0.1",
   "unity": "2019.3",
-  "description": "The Asset Dependency Graph tool allows you to visualize an asset’s dependency chain",
-  "type": "tool",
+  "description": "The Asset Dependency tools allows you to visualize an asset’s dependency chain",
   "author": {
-    "name": "Harry Rose",
-    "url": "https://www.twitter.com/peanutbuffer"
+    "name": "Harry Rose and Facepunch"
   }
 }
