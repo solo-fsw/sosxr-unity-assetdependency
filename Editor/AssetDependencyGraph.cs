@@ -208,7 +208,7 @@ namespace SOSXR.AssetDependencyGraph
                 return resultNode;
             }
 
-            if (AssetDatabase.TryGetGUIDAndLocalFileIdentifier(obj, out var assetGuid, out long _))
+            if (AssetDatabase.TryGetGUIDAndLocalFileIdentifier(obj, out var assetGuid, out var _))
             {
                 var objNode = new Node
                 {
