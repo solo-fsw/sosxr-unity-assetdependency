@@ -109,7 +109,7 @@ namespace SOSXR.WhatUsesThis
         }
 
 
-        [MenuItem("SOSXR/Asset Dependency/What uses this?")]
+        [MenuItem("SOSXR/Asset Dependency/What uses this? %#&d")]
         private static void FindParentAssets()
         {
             var iCount = 0;
@@ -134,7 +134,7 @@ namespace SOSXR.WhatUsesThis
         }
 
 
-        [MenuItem("SOSXR/Asset Dependency/What does this use?")]
+        [MenuItem("SOSXR/Asset Dependency/What does this use? %&d")]
         private static void FindChildAssets()
         {
             var iCount = 0;

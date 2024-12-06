@@ -23,7 +23,7 @@ namespace SOSXR.AssetDependencyGraph
         private const float kNodeWidth = 250.0f;
 
 
-        [MenuItem("SOSXR/Asset Dependency/Asset Dependency Graph")]
+        [MenuItem("SOSXR/Asset Dependency/Asset Dependency Graph %#&g")]
         public static void CreateTestGraphViewWindow()
         {
             var window = GetWindow<AssetDependencyGraph>();
@@ -364,7 +364,7 @@ namespace SOSXR.AssetDependencyGraph
 
         private void UpdateDependencyNodePlacement(GeometryChangedEvent e)
         {
-            (e.target as VisualElement).UnregisterCallback<GeometryChangedEvent>(UpdateDependencyNodePlacement);
+            (e.target as VisualElement)?.UnregisterCallback<GeometryChangedEvent>(UpdateDependencyNodePlacement);
 
             // The current y offset in per depth
             var depthYOffset = new Dictionary<int, float>();

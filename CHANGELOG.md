@@ -11,6 +11,11 @@ The changelog format is based on [Keep a Changelog](https://keepachangelog.com/e
 - Explicit call to (AssetDatabase.TryGetGUIDAndLocalFileIdentifier(obj, out var assetGuid, out long _) in AssetDependencyGraph
 - Name of icon 
 
+### Added
+- Shortcuts
+  - Command Shift Alt D for What Uses This
+  - Command Alt D for What Does This Use
+  - Command Shift Alt G for Dependency Graph
 
 
 
