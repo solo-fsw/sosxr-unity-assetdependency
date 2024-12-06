@@ -208,7 +208,8 @@ namespace SOSXR.AssetDependencyGraph
                 return resultNode;
             }
 
-            if (AssetDatabase.TryGetGUIDAndLocalFileIdentifier(obj, out var assetGuid, out var _))
+            // ReSharper disable once SuggestVarOrType_BuiltInTypes
+            if (AssetDatabase.TryGetGUIDAndLocalFileIdentifier(obj, out var assetGuid, out long _))
             {
                 var objNode = new Node
                 {
