@@ -6,5 +6,6 @@
   "description": "The Asset Dependency tools allows you to visualize an asset’s dependency chain",
   "author": {
     "name": "Harry Rose and Facepunch"
-  }
+  },
+  "changelogUrl": "https://github.com/solo-fsw/sosxr-unity-assetdependency/blob/main/CHANGELOG.md"
 }
