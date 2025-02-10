@@ -7,5 +7,12 @@
   "author": {
     "name": "Harry Rose and Facepunch"
   },
+  "samples": [
+    {
+      "displayName": "Samples",
+      "description": "Contains samples of this package",
+      "path": "Samples~/Samples"
+    }
+  ],
   "changelogUrl": "https://github.com/solo-fsw/sosxr-unity-assetdependency/blob/main/CHANGELOG.md"
 }
